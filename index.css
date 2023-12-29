@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    box-sizing: border-box;
+}
+
+.buttons{
+   
+   margin-left:1300px;
+  min-width: 100px ; 
+   min-height: 38px;
+   background-color: aquamarine;
+   color: black;
+   border-radius: 21px;
+}
+.buttons:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.2 ease-in-out;
+}
+
+
+.topsection{
+
+    padding-top: 20px;
+    background-color:black ;
+    color: antiquewhite;
+    min-height: 120px;
+    text-decoration:wavy;
+  
+    border-radius: 2px;
+}
+
+
+.nav h1{
+  padding-left: 250px;
+   
+    font-size: 45px;
+   
+}
+
+.nav{
+
+    padding-top: 2px;
+}
+.topsection p{
+    padding-left: 500px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.blank{
+    min-height: 500px;
+}
+
+
+.work {
+    margin-top: 5000px;
+   
+   
+    display: grid;
+    border: 2px solid black;
+    gap: 30px;
+
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    min-height: 500px;
+    max-width: 1100px;
+    margin: 50px auto;
+  }
+  a:hover {
+    color: #FF4500; 
+    text-decoration: underline;
+    background-color: #F0F8FF; 
+  }
+
+
+  .grid_item {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+ 
+    min-width: 200px;
+    max-width: 320px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.2s ease-in-out;
+  }
+  .card:hover {
+    transform: scale(1.04);
+    box-shadow: 5px 5px 5px 1px rgb(23, 142, 211);
+    transition: 0.2s ease-in-out;
+    border: 2px solid black;
+  }
+
+  .card h3{
+    padding-top: 30px;
+   
+  }
